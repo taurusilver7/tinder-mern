@@ -8,7 +8,7 @@ import Cards from "./dbCards.js";
 const app = express();
 const port = process.env.PORT || 8001;
 
-const connection_url = `mongodb+srv://admin:KrbyjopPkRSvuNwa@cluster0.em8yw.mongodb.net/tinderDB?retryWrites=true&w=majority`;
+// const connection_url = `mongodb+srv://admin:KrbyjopPkRSvuNwa@cluster0.em8yw.mongodb.net/tinderDB?retryWrites=true&w=majority`;
 
 // middlewares
 app.use(express.json());
